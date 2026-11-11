@@ -1,0 +1,43 @@
+{
+  "format_version": 1,
+  "name": "归档 2026 年发票",
+  "created": "2026-11-11 23:25:34",
+  "items": [
+    {
+      "op": "move",
+      "src": "发票_01.pdf",
+      "dst": "归档/2026/发票_01.pdf",
+      "note": "按年份归档",
+      "overwrite": false,
+      "precheck": {
+        "status": "OK",
+        "detail": "可执行"
+      }
+    },
+    {
+      "op": "move",
+      "src": "发票_02.pdf",
+      "dst": "归档/2026/发票_02.pdf",
+      "note": "按年份归档",
+      "overwrite": false,
+      "precheck": {
+        "status": "OK",
+        "detail": "可执行"
+      }
+    },
+    {
+      "op": "delete",
+      "src": "临时缓存.tmp",
+      "dst": null,
+      "note": "确认无用的临时文件",
+      "overwrite": false,
+      "precheck": {
+        "status": "OK",
+        "detail": "将移入隔离区，不真删"
+      }
+    }
+  ],
+  "token": "fd82509ef0c03a9a",
+  "built_at": "2026-11-11 23:25:37",
+  "applied": false
+}

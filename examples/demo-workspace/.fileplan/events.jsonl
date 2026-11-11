@@ -1,0 +1,5 @@
+{"at": "2026-11-11 23:25:34", "event": "init", "name": "归档 2026 年发票"}
+{"at": "2026-11-11 23:25:35", "event": "add", "op": "move", "src": "发票_01.pdf", "dst": "归档/2026/发票_01.pdf"}
+{"at": "2026-11-11 23:25:35", "event": "add", "op": "move", "src": "发票_02.pdf", "dst": "归档/2026/发票_02.pdf"}
+{"at": "2026-11-11 23:25:36", "event": "add", "op": "delete", "src": "临时缓存.tmp", "dst": null}
+{"at": "2026-11-11 23:25:37", "event": "build", "token": "fd82509ef0c03a9a", "items": 3}
